@@ -1,40 +1,8 @@
+<!-- https://mdbootstrap.com/docs/standard/navigation/footer/ -->
+
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section
-    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-  >
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
-
+<footer class="text-center text-lg-start bg-white text-muted">
+  
   <!-- Section: Links  -->
   <section class="">
     <div class="container text-center text-md-start mt-5">
@@ -44,7 +12,7 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            <i class="fas fa-gem me-3"></i>Amogus inc.
           </h6>
           <p>
             Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -81,16 +49,16 @@
             Useful links
           </h6>
           <p>
-            <a href="#!" class="text-reset">Pricing</a>
+            <a href="index.php" class="text-reset">Home</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Settings</a>
+            <a href="contact.php" class="text-reset">Contact</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Orders</a>
+            <a href="loginform-klant.php" class="text-reset">Klant</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Help</a>
+            <a href="loginform-medewerker.php" class="text-reset">Medewerker</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -101,13 +69,13 @@
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3"></i> Amsterdam bijlmer</p>
+          <p><i class="fas fa-home me-3"></i> Maandag - Vrijdag</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            info@example.com
+            jemoeder@talnet.nl
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3"></i> + 06 114 206 90</p>
         </div>
         <!-- Grid column -->
       </div>
@@ -117,14 +85,13 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="text-center p-4" style="background-color: rgba(230, 230, 230);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Randi.com</a>
   </div>
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-<!-- https://mdbootstrap.com/docs/standard/navigation/footer/ -->
 
 <!-- script -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

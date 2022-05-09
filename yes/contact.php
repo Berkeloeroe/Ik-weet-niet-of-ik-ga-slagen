@@ -1,48 +1,18 @@
 <?php include "includes/header.php"; ?>
 <?php include "includes/navigation.php"; ?>
-
-<?php
-
-if(isset($_POST['verzend'])) {
-
-     $naam = $_POST['naam'];
-     $email = $_POST['email'];
-     $telefoon = $_POST['telefoon'];
-     $bericht = $_POST['bericht'];
-
-     $naam = mysqli_real_escape_string($connection, $naam);
-     $email = mysqli_real_escape_string($connection, $email);
-     $telefoon = mysqli_real_escape_string($connection, $telefoon);
-     $bericht = mysqli_real_escape_string($connection, $bericht);
-
-     $query =  "INSERT INTO contact(naam,email,telefoon,bericht)";
-     $query .= "VALUES ('$naam', '$email', '$telefoon', '$bericht')";
-
-     $result = mysqli_query($connection, $query);
-
-     if(!$result) {
-
-        die('Query Gefaald' . mysqli_error());
-
-        } else {
-
-        echo '<script type="text/javascript">window.onload = function () { alert("Succesvol verzonden"); } </script>';
-
-    }
-
- }
-
-?>
+<?php include "medewerkers/includes/functions.php"; ?>
 
 <div class="hero-image-contact">
       <div class="hero-text">
         <h1 class="display-5 fw-bold lh-1 mb-3">Contact</h1>
       </div>
     </div>
+  
+    
     <div class="container">
               <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-
+                <?php contact(); ?>
                 <form action="" method="post">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Naam</label>
@@ -88,5 +58,6 @@ if(isset($_POST['verzend'])) {
                   <img src="media/globe.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 </div>
               </div>
-          
+            </div>
+<!-- footer  -->
 <?php include "includes/footer.php" ?>

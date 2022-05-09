@@ -1,7 +1,7 @@
 <?php include "includes/header.php"; ?>
 <?php include "includes/navigation.php"; ?>
 <!-- Hero section -->
-<div class="hero-image">
+  <div class="hero-image">
       <div class="hero-text">
         <h1 class="display-5 fw-bold lh-1 mb-3">Welcome to the very sussy Among us</h1>
         <p class="lead">
@@ -11,7 +11,8 @@
         </p>
         <a class="btn btn-primary" href="registration.php">Nog geen account?</a>
       </div>
-    </div>
+    </div> 
+    
     <div class="container">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -68,3 +69,4 @@
     </div>
 <!-- footer -->
 <?php include "includes/footer.php" ?>
+ 

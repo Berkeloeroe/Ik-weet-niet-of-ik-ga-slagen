@@ -8,6 +8,13 @@
       </div>
     </div>
   <div class="container">
+
+  <div id="page-container">
+   <div id="content-wrap">
+     <!-- all other page content -->
+   </div>
+   <footer id="footer"></footer>
+ </div>
     
 <!-- footer -->
 <?php include "includes/admin_footer.php"; ?>

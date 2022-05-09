@@ -1,11 +1,14 @@
 <?php include "includes/header-klant.php"; ?>
 <?php include "includes/navigation-klant.php"; ?>
 
+<!-- hier werkt form niet -->
+
 <div class="hero-image-contact">
       <div class="hero-text">
         <h1 class="display-5 fw-bold lh-1 mb-3">Contact</h1>
       </div>
     </div>
+
     <div class="container">
               <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
@@ -40,6 +43,7 @@
                 </div>
               </div>
             </div>
+
             <div class="container">
               <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-lg-6">
@@ -55,5 +59,7 @@
                   <img src="../media/globe.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 </div>
               </div>
-          
+            </div>
+        </div>
+<!-- <footer>   -->
 <?php include "includes/footer-klant.php" ?>

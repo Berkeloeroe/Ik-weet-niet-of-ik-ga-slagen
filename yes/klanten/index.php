@@ -12,6 +12,7 @@
         <a class="btn btn-primary" href="#">?</a>
       </div>
     </div>
+    <!-- foto -->
     <div class="container">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -39,6 +40,7 @@
         </div>
       </div>
     </div>
+    <!-- foto -->
     <div class="container">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-lg-6">
@@ -65,5 +67,6 @@
           />
         </div>
       </div>
-
+</div>
+<!-- footer -->
 <?php include "includes/footer-klant.php" ?>

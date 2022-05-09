@@ -39,13 +39,13 @@ function kut($result) {
 
     }
 
-    }
+}
 
 ?>
 
 <?php
 
-if(isset($_POST["edit_user"])) {
+if(isset($_POST["edits"])) {
 
     $naam = $_POST['naam'];
     $wachtwoord = $_POST['wachtwoord'];
@@ -97,7 +97,7 @@ if(isset($_POST["edit_user"])) {
                             <label for="email">E-mail</label>
                             <input type="email" class="form-control" name="email" value="<?php echo $email; ?>">
                         </div>
-                        <input class="btn btn-primary" type="submit" name="edit_user" value="Update">
+                        <input class="btn btn-primary" type="submit" name="edits" value="Update">
                         </form>
 
 <!-- footer-->

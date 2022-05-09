@@ -29,6 +29,9 @@ while($row = mysqli_fetch_array($select_user_)) {
 
     }
 
+    $wachtwoord = crypt($wachtwoord,$db_wachtwoord);
+
+
     if($naam === $db_naam && $wachtwoord === $db_wachtwoord) {
 
     $_SESSION['naam'] = $db_naam;
